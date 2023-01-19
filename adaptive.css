@@ -1,0 +1,73 @@
+@media screen and (max-width: 1220px) {
+
+    .body{
+        margin: 0;
+    }
+
+    .wrapper{
+    max-width: 668px;
+    margin: 0 auto;
+    }
+
+    .welcom__img{
+        width: 280px;
+        height: 254.15px;
+        order: 1;
+    }
+
+    .welcome__wrapper{
+        padding: 40px 0 70px 0;
+    }
+
+    .welcome__content{
+        align-items: flex-start;
+        padding-right: 42px;
+        padding-left: 0;
+    }
+
+    .welcom__title{
+        font-size: 35px;
+    }
+
+    .welcom__text{
+        padding-bottom: 30px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .about__wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0 95px 0;
+    }
+
+    .about__content {
+        padding-right: 0;
+    }
+
+    .about__title{
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .about__text{
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+
+    .houseplant{
+        width: 250px;
+        height: 258px;
+    }
+
+    .service__header {
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+    }
+    
+
+
+}
