@@ -54,12 +54,20 @@
     .about__text{
         font-size: 20px;
         line-height: 30px;
+        padding-bottom: 40px;
     }
 
     .houseplant{
         width: 250px;
         height: 258px;
     }
+
+    .service__header {
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+    }
+    
 
 
 }
