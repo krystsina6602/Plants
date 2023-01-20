@@ -1,6 +1,11 @@
 @media screen and (max-width: 1220px) {
 
-    .body{
+    html{
+        overflow-x: hidden;
+        height: 768px;
+    }
+
+    body{
         margin: 0;
     }
 
@@ -66,8 +71,28 @@
         display: flex;
         flex-direction: column;
         max-width: none;
+        align-items: flex-start;
+        padding: 0;
     }
-    
 
+    .service__title{
+        font-size: 35px;
+        line-height: 46px;
+        padding: 60px 412px 40px 0;
+    }
+
+    .button{
+        margin: 0 38px 40px 0;
+    }
+
+    .service__pic{
+        margin-bottom: 38px;
+    }
+
+    
+    
+    .pic__text{
+        padding-bottom: 20px;
+    }
 
 }
