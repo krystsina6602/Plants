@@ -12,10 +12,6 @@ body{
     margin: 0 auto;
 }
 
-img{
-    max-width: 100%;
-}
-
 /* header styles start */
 
 .header{
@@ -285,7 +281,6 @@ img{
 
 .prices__wrapper{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     font-family: 'Inter';
     font-style: normal;
@@ -295,6 +290,8 @@ img{
 
 .prices__content{
     padding-right: 438px;
+    display: flex;
+    flex-direction: column;
 }
 
 .prices__title{
@@ -357,6 +354,11 @@ img{
     border: 1px solid #E06733;
     border-radius: 5px;
     padding: 12px 33px 12px 30px;
+}
+
+.call__pic{
+    width: 152px;
+    height: 174.99px;
 }
 
 /* */

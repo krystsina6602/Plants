@@ -89,10 +89,61 @@
         margin-bottom: 38px;
     }
 
-    
-    
     .pic__text{
         padding-bottom: 20px;
     }
 
+    .prices__wrapper{
+        padding-bottom: 88px;
+    }
+    
+    .prices__content {
+        padding-right: 40px;
+    }
+
+    .prices__title{
+        font-size: 35px;
+        line-height: 42px;
+        padding: 40px 0 50px 0; 
+    }
+
+    .text__call{
+        font-size: 25px;
+        line-height: 35px;
+        padding: 139px 0 21px 0;
+    }
+
+    .button__call{
+        margin-bottom: 46px
+    }
+
+    .call__pic{
+        width: 152px;
+        height: 174.98px;
+    }
+
+    .contact__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .woman {
+        order: 2;
+        width: 200px;
+        height: 248.49px;
+        padding: 0 0 0.5px 0;
+    }
+
+    .contact__title{
+        padding: 40px 0 100px 0;
+    }
+
+    .contact__button{
+        margin: 0 0 250px 0;
+    }
+
+    .footer__wrapper{
+        flex-direction: column;
+    }
 }
