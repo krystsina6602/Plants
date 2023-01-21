@@ -179,6 +179,7 @@
     .navigation{
         width: 100%;
         flex-direction: column;
+        padding: 40px;
     }
 
     .navigation__link{
@@ -188,7 +189,31 @@
         line-height: 50px;
     }
         
+    .navigation-close{
+        width: 40px;
+        height: 24px;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        z-index: 11;
+    }
 
+    .line__navigation-close{
+        display: block;
+        width: 100%;
+        border: 2px solid #717171;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .line__navigation-close:first-child{
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    .line__navigation-close:last-child{
+        transform: translateY(-50%) rotate(-45deg)
+    }
     
 }
 
