@@ -85,7 +85,7 @@ body{
 .burger__line{
     display: block;
     width: 100%;
-    border: 2px solid #717171;
+    border: 1px solid #717171;
     position: absolute;
     left: 0;
 }
@@ -106,7 +106,7 @@ body{
     bottom: 0;
 }
 
-/* welcom styles start */
+/* welcome styles start */
 
 .welcome__wrapper{
     display: flex;
@@ -115,7 +115,7 @@ body{
     padding: 62px 15px;
 }
 
-.welcom{
+.welcome{
     background-color: #EDF2EC;
 }
 
@@ -127,7 +127,7 @@ body{
 }
 
 
-.welcom__title{
+.welcome__title{
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
@@ -137,7 +137,7 @@ body{
     margin-block-end: 0;
 }
 
-.welcom__text{
+.welcome__text{
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
@@ -151,7 +151,7 @@ body{
     color: #499A18;
 }
 
-.welcom__button{
+.welcome__button{
     border: 2px solid #E06733;
     border-radius: 10px;
     cursor: pointer;
@@ -168,17 +168,17 @@ body{
     text-transform: uppercase;
 }
 
-.welcom__button:hover{
+.welcome__button:hover{
     background: #E06733;
     transition: .3s ease-out;
     }
 
-.welcom__img{
+.welcome__img{
     width: 448.8px;
     height: 407.36px;
 }
 
-/* welcom styles end */
+/* welcome styles end */
 
 /* about style start */
 
