@@ -235,14 +235,14 @@
         margin: 0 auto;
     }
 
+    .header{
+        padding: 36px 0;
+    }
+
     .welcome__img{
         display: none;
     }
 
-    .welcome__content{
-        padding: 24px 0 24px 0;
-    }
-    
     .welcome__title{
         font-size: 25px;
         line-height: 35px;
@@ -264,4 +264,143 @@
         padding: 24px 0;
     }
 
+    .about__wrapper{
+        padding: 30px 0;
+    }
+
+    .about__title{
+        font-size: 25px;
+        line-height: 33px;
+        padding-bottom: 21px;
+    }
+
+    .about__text{
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 0.3px;
+    }
+
+    .houseplant{
+        width: 150px;
+        height: 147px;
+    }
+
+    .service__title{
+        font-size: 25px;
+        line-height: 33px;
+        padding: 30px 143px 35px 0;
+    }
+
+    .service__button{
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 28px;
+        margin: 0 10px 9px 0;
+    }
+
+    .button:last-child{
+        margin: 0;
+    }
+
+    .pic__title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .service__pic{
+        margin-bottom: 34px;
+    }
+
+    .prices__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 19px 0 40px 0;
+    }
+
+    .prices__title{
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0 0 40px 0;
+    }
+
+    .prices__button{
+        width: 180px;
+        height: 49.72px;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 30px;
+        margin: 14px 22px;
+    }
+
+    .prices__button:first-child{
+        margin-top: 29px;
+    }
+
+    .prices__button:last-child{
+        margin-bottom: 29px;
+    }
+
+    .prices__content{
+        padding: 0 0 19px 0;
+    }
+
+    .call__pic{
+        display: none;
+    }
+
+    .call{
+        text-align: center;
+    }
+
+    .text__call{
+        font-size: 20px;
+        line-height: 35px;
+        padding: 0 0 14px 0;
+    }
+
+    .button__call{
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 22px;
+        margin-bottom: 0;
+    }
+
+    .contact__title{
+        font-size: 25px;
+        line-height: 33px;
+        padding: 25px 0 80px 0;
+    }
+
+    .contact__button{
+        width: 300px;
+        height: 50px;
+        margin: 0 0 132px 0;
+    }
+
+    .woman{
+        width: 100px;
+        height: 124.25px;
+    }
+    .data{
+        padding-right: 20px;
+    }
+
+    .data:last-child{
+        padding-right: 0;
+    }
+
+    .item{
+        padding-right: 20px;
+    }
+
+    .item:last-child{
+        padding-right: 0;
+    }
 }
+
