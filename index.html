@@ -9,24 +9,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
     <title>Plants</title>
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="wrapper header__wrapper">
             <a href="#" class="logo">
                 <img src="/Plants/img/logo_vector.svg" alt="logo">
                 <span class="logo__text">Plants</span>
             </a>
-            <nav class="header__navigation">
-                <ul class="navigation">
-                    <li class="navigation__list">
-                        <a href="#home" class="navigation__link link__home color__red">Home</a>
+            <nav class="header__navigation"> <!-- navbar -->
+                <ul class="navigation"> <!-- nav menu -->
+                    <li class="navigation__list"> <!-- nav item -->
+                        <a href="#home" class="navigation__link link__home">Home</a> 
                     </li>
                     <li class="navigation__list">
                         <a href="#about_us" class="navigation__link">About us</a>
                     </li>
                     <li class="navigation__list">
-                        <a href="#service" class="navigation__link">Service</a>
+                        <a href="#service" class="navigation__link">Service</a> <!-- nav link -->
                     </li>
                     <li class="navigation__list">
                         <a href="#price" class="navigation__link link__price">Price</a>
@@ -35,18 +36,28 @@
                         <a href="#contacts" class="navigation__link">Contacts</a>
                     </li>
                 </ul>
+                <div class="navigation-close"> 
+                    <span class="line__navigation-close"></span>
+                    <span class="line__navigation-close"></span>
+                </div>
             </nav>
+            <div class="header__burger burger"> <!-- hamb -->
+                <span class="burger__line first"></span> <!-- bar -->
+                <span class="burger__line second"></span>
+                <span class="burger__line third"></span>
+            </div>
         </div>
     </header>
+    <script type="text/javascript" src="burger.js"></script>
     <main class="main">
-        <section class="welcom" id="home">
+        <section class="welcome">
             <div class="wrapper welcome__wrapper">
                 <div class="welcome__content">
-                    <h1 class="welcom__title">We grow <span class="color__green">plants</span> and give you oxygen</h1>
-                    <p class="welcom__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    <button class="welcom__button">learn more</button>
+                    <h1 class="welcome__title">We grow <span class="color__green">plants</span> and give you oxygen</h1>
+                    <p class="welcome__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <button class="welcome__button">learn more</button>
                 </div>
-                <img src="/Plants/img/leafs_sv.svg" alt="leafs" class="welcom__img">
+                <img src="/Plants/img/leafs_sv.svg" alt="leafs" class="welcome__img">
             </div>
         </section>
         <section class="about" id="about_us">
@@ -132,15 +143,15 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="wrapper columns__3">
+        <div class="wrapper columns__3 footer__wrapper">
             <div class="footer__data">
-                <span class="copyright">&copy;</span>
-                <span class="date">2023</span>
-                <a target="_blank" href="https://github.com/krystsina6602" class="github__link">github</a>
+                <span class="copyright data">&copy;</span>
+                <span class="date data">2023</span>
+                <a target="_blank" href="https://github.com/krystsina6602" class="github__link data">github</a>
             </div>
             <div><a target="_blank" href="https://rs.school/js-stage0/" class="school__link">Rolling Scopes School</a></div>
             <ul class="social__list">
-                <li><a target="_blank" class="item" href="https://www.instagram.com/rollingscopes/"><img src="/Plants/img/inst.svg" alt="instagram"></a></li>
+                <li><a target="_blank" class="item first" href="https://www.instagram.com/rollingscopes/"><img src="/Plants/img/inst.svg" alt="instagram"></a></li>
                 <li><a target="_blank" class="item" href="https://www.facebook.com/RollingScopesSchool"><img src="/Plants/img/fb.svg" alt="facebook"></a></li>
                 <li><a target="_blank" class="item" href="https://twitter.com/rollingscopes"><img src="/Plants/img/tw.svg" alt="twitter"></a></li>
                 <li><a target="_blank" class="item" href="#"><img src="/Plants/img/pinterest.svg" alt="pinterest"></a></li>
