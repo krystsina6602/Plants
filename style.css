@@ -93,19 +93,15 @@ body{
     transition: 0.3s;
 }
 
-.burger__line_first{
+.first{
     top: 0;
 }
 
-.burger__line_second{
-    top: calc(33.3% - 0.5px);
+.second{
+    top: calc(45% - 0.5px);
 }
 
-.burger__line_third{
-    top: calc(66.6% - 0.5px);
-}
-
-.burger__line_four{
+.third{
     bottom: 0;
 }
 
