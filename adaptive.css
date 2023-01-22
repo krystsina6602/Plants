@@ -1,0 +1,411 @@
+@media screen and (max-width: 1220px) {
+
+    body{
+        margin: 0;
+    }
+
+    .wrapper{
+        max-width: 668px;
+        margin: 0 auto;
+    }
+
+    /* Header starts */
+
+    .header{
+        margin-bottom: 0;
+    }
+
+    /* Header ends */
+
+    /* Welcome starts */
+
+    .welcome__img{
+        width: 280px;
+        height: 254.15px;
+        order: 1;
+    }
+
+    .welcome__wrapper{
+        padding: 40px 0 70px 0;
+    }
+
+    .welcome__content{
+        align-items: flex-start;
+        padding-right: 42px;
+        padding-left: 0;
+    }
+
+    .welcome__title{
+        font-size: 35px;
+    }
+
+    .welcome__text{
+        padding-bottom: 30px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    /* Welcome ends */
+
+    /* About starts */
+
+    .about__wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0 95px 0;
+    }
+
+    .about__content {
+        padding-right: 0;
+    }
+
+    .about__title{
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .about__text{
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+
+    .houseplant{
+        width: 250px;
+        height: 258px;
+    }
+
+    /* About ends */
+
+    /* Service starts */
+
+    .service__header {
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .service__title{
+        font-size: 35px;
+        line-height: 46px;
+        padding: 60px 412px 40px 0;
+    }
+
+    .button{
+        margin: 0 38px 40px 0;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .service__pic{
+        margin-bottom: 38px;
+    }
+
+    .pic__text{
+        padding-bottom: 20px;
+    }
+
+     /* Service ends */
+
+      /* Prisec starts */
+
+    .prices__wrapper{
+        padding-bottom: 88px;
+    }
+    
+    .prices__content {
+        padding-right: 40px;
+    }
+
+    .prices__title{
+        font-size: 35px;
+        line-height: 42px;
+        padding: 40px 0 50px 0; 
+    }
+
+    .text__call{
+        font-size: 25px;
+        line-height: 35px;
+        padding: 139px 0 21px 0;
+    }
+
+    .button__call{
+        margin-bottom: 46px
+    }
+
+    .call__pic{
+        width: 152px;
+        height: 174.98px;
+    }
+
+     /* Service ends */
+
+      /* Contact starts */
+
+    .contact__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .woman {
+        order: 2;
+        width: 200px;
+        height: 248.49px;
+        padding: 0 0 0.5px 0;
+    }
+
+    .contact__title{
+        padding: 40px 0 100px 0;
+    }
+
+    .contact__button{
+        margin: 0 0 250px 0;
+    }
+
+     /* Contact ends */
+
+      /* Footer starts */
+
+    .footer__wrapper{
+        flex-direction: column;
+        padding: 33px 0 18px 0;
+    }
+
+    .footer__data{
+        padding: 0 0 16px 0;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .school__link{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .social__list{
+        margin-top: 16px;
+    }
+
+    /* Footer ends */
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .navigation{
+        position: fixed;
+        flex-direction: column;
+        background-color: #D6E7D2;
+        width: 100%;
+        transition: .2s all linear;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 10;
+        transform: translateX(100%);
+        padding: 40px;
+        top: 116px;
+        left: 0;
+    }
+
+    .navigation.active{
+        transform: translateX(0);
+    }
+
+    .burger{
+        display: block;  
+        cursor: pointer;
+    }
+
+    .burger.active .second{
+        display: none;
+    }
+
+    .burger.active .first{
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .burger.active .third{
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    
+    .wrapper{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .header{
+        padding: 36px 0;
+    }
+
+    .welcome__img{
+        display: none;
+    }
+
+    .welcome__title{
+        font-size: 25px;
+        line-height: 35px;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+    .welcome__text{
+        padding-bottom: 20px;
+    }
+
+    .welcome__button{
+        font-size: 10px;
+        line-height: 20px;
+        padding: 8px 18px;
+    }
+
+    .welcome__wrapper{
+        padding: 24px 0;
+    }
+
+    .about__wrapper{
+        padding: 30px 0;
+    }
+
+    .about__title{
+        font-size: 25px;
+        line-height: 33px;
+        padding-bottom: 21px;
+    }
+
+    .about__text{
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 0.3px;
+    }
+
+    .houseplant{
+        width: 150px;
+        height: 147px;
+    }
+
+    .service__title{
+        font-size: 25px;
+        line-height: 33px;
+        padding: 30px 143px 35px 0;
+    }
+
+    .service__button{
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .button{
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 28px;
+        margin: 0 10px 9px 0;
+    }
+
+    .button:last-child{
+        margin: 0;
+    }
+
+    .pic__title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .service__pic{
+        margin-bottom: 34px;
+    }
+
+    .prices__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 19px 0 40px 0;
+    }
+
+    .prices__title{
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0 0 40px 0;
+    }
+
+    .prices__button{
+        width: 180px;
+        height: 49.72px;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 30px;
+        margin: 14px 22px;
+    }
+
+    .prices__button:first-child{
+        margin-top: 29px;
+    }
+
+    .prices__button:last-child{
+        margin-bottom: 29px;
+    }
+
+    .prices__content{
+        padding: 0 0 19px 0;
+    }
+
+    .call__pic{
+        display: none;
+    }
+
+    .call{
+        text-align: center;
+    }
+
+    .text__call{
+        font-size: 20px;
+        line-height: 35px;
+        padding: 0 0 14px 0;
+    }
+
+    .button__call{
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 22px;
+        margin-bottom: 0;
+    }
+
+    .contact__title{
+        font-size: 25px;
+        line-height: 33px;
+        padding: 25px 0 80px 0;
+    }
+
+    .contact__button{
+        width: 300px;
+        height: 50px;
+        margin: 0 0 132px 0;
+    }
+
+    .woman{
+        width: 100px;
+        height: 124.25px;
+    }
+    .data{
+        padding-right: 20px;
+    }
+
+    .data:last-child{
+        padding-right: 0;
+    }
+
+    .item{
+        padding-right: 20px;
+    }
+
+    .item:last-child{
+        padding-right: 0;
+    }
+}
