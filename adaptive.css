@@ -181,12 +181,14 @@
 
     .footer__wrapper{
         flex-direction: column;
-        padding: 33px 0 18px 0;
     }
 
     .footer__data{
         font-size: 20px;
         line-height: 24px;
+        margin: 31px 0 15px 0;
+        padding: 0;
+
     }
 
     .school__link{
@@ -195,9 +197,16 @@
     }
 
     .social__list{
-        margin-top: 16px;
+        margin-top: 25px;
     }
 
+    .data{
+        padding: 0 6px 0 8px;
+    }
+
+    .item{
+        padding: 0 7px 0 13px;
+    }
     /* Footer ends */
 
 }
