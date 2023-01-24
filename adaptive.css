@@ -13,6 +13,7 @@
 
     .header{
         margin-bottom: 0;
+        box-shadow: none;
     }
 
     /* Header ends */
@@ -26,7 +27,7 @@
     }
 
     .welcome__wrapper{
-        padding: 32px 0 70px 10px;
+        padding: 158px 0 70px 10px;
         align-items: flex-start;
     }
 
@@ -213,27 +214,33 @@
 
 @media screen and (max-width: 767px) {
 
+    /* burger-menu starts */
+
     .navigation{
         position: fixed;
         flex-direction: column;
-        background-color: #D6E7D2;
+        background-color: #edf2ec;
         width: 100%;
         transition: .2s all linear;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         z-index: 10;
         transform: translateX(100%);
         padding: 40px;
-        top: 116px;
+        top: 75px;
         left: 0;
+        transition: 1s;
     }
 
     .navigation.active{
         transform: translateX(0);
+        font-size: 30px;
     }
 
     .burger{
         display: block;  
         cursor: pointer;
+        transition: 1s;
+    
     }
 
     .burger.active .second{
@@ -241,12 +248,14 @@
     }
 
     .burger.active .first{
-        transform: translateY(10px) rotate(45deg);
+        transform: translateY(11px) rotate(45deg);
     }
 
     .burger.active .third{
-        transform: translateY(-10px) rotate(-45deg);
+        transform: translateY(-11px) rotate(-45deg);
     }
+
+    /* burger-menu ends */
 
 }
 
@@ -260,6 +269,7 @@
 
     .header{
         padding: 36px 0;
+        box-shadow: none;
     }
 
     .welcome__content{
@@ -288,11 +298,11 @@
     }
 
     .welcome__wrapper{
-        padding: 24px 0;
+        padding: 122px 0 24px 0;;
     }
 
     .about__wrapper{
-        padding: 30px 0 36px 0;
+        padding: 30px 0 37px 0;
     }
 
     .about__title{
@@ -304,7 +314,7 @@
     .about__text{
         font-size: 15px;
         line-height: 25px;
-        padding-bottom: 0.3px;
+        padding-bottom: 5px;
     }
 
     .houseplant{
@@ -359,7 +369,7 @@
     .prices__wrapper{
         flex-wrap: wrap;
         justify-content: center;
-        padding: 19px 0 37px 0;
+        padding: 17px 0 37px 0;
     }
 
     .prices__title{
