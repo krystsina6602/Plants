@@ -13,6 +13,7 @@
 
     .header{
         margin-bottom: 0;
+        box-shadow: none;
     }
 
     /* Header ends */
@@ -26,7 +27,8 @@
     }
 
     .welcome__wrapper{
-        padding: 40px 0 70px 0;
+        padding: 158px 0 70px 10px;
+        align-items: flex-start;
     }
 
     .welcome__content{
@@ -37,10 +39,11 @@
 
     .welcome__title{
         font-size: 35px;
+        padding-bottom: 33px;
     }
 
     .welcome__text{
-        padding-bottom: 30px;
+        padding-bottom: 35px;
         font-size: 16px;
         line-height: 25px;
     }
@@ -63,12 +66,13 @@
         font-size: 35px;
         line-height: 46px;
         text-align: center;
+        padding:0 100px 50px 100px;
     }
 
     .about__text{
         font-size: 20px;
         line-height: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 68px;
     }
 
     .houseplant{
@@ -101,11 +105,12 @@
     }
 
     .service__pic{
-        margin-bottom: 38px;
+        width: 280px;
+        margin-bottom: 30px;
     }
 
     .pic__text{
-        padding-bottom: 20px;
+        padding: 0 20px 20px 20px;
     }
 
      /* Service ends */
@@ -113,7 +118,7 @@
       /* Prisec starts */
 
     .prices__wrapper{
-        padding-bottom: 88px;
+        padding: 41px 15px 85px 20px;
     }
     
     .prices__content {
@@ -123,17 +128,21 @@
     .prices__title{
         font-size: 35px;
         line-height: 42px;
-        padding: 40px 0 50px 0; 
+        padding: 40px 0 59px 14px; 
+    }
+
+    .prices__button{
+        padding: 1px 40px 0 38px;
     }
 
     .text__call{
         font-size: 25px;
         line-height: 35px;
-        padding: 139px 0 21px 0;
+        padding: 139px 0 28px 0;
     }
 
     .button__call{
-        margin-bottom: 46px
+        margin-bottom: 32px
     }
 
     .call__pic{
@@ -155,7 +164,7 @@
         order: 2;
         width: 200px;
         height: 248.49px;
-        padding: 0 0 0.5px 0;
+        padding: 0 0 0.5px 20px;
     }
 
     .contact__title{
@@ -164,6 +173,7 @@
 
     .contact__button{
         margin: 0 0 250px 0;
+        padding: 4px 21px;
     }
 
      /* Contact ends */
@@ -172,13 +182,14 @@
 
     .footer__wrapper{
         flex-direction: column;
-        padding: 33px 0 18px 0;
     }
 
     .footer__data{
-        padding: 0 0 16px 0;
         font-size: 20px;
         line-height: 24px;
+        margin: 31px 0 15px 0;
+        padding: 0;
+
     }
 
     .school__link{
@@ -187,36 +198,49 @@
     }
 
     .social__list{
-        margin-top: 16px;
+        margin-top: 25px;
     }
 
+    .data{
+        padding: 0 6px 0 8px;
+    }
+
+    .item{
+        padding: 0 7px 0 13px;
+    }
     /* Footer ends */
 
 }
 
 @media screen and (max-width: 767px) {
 
+    /* burger-menu starts */
+
     .navigation{
         position: fixed;
         flex-direction: column;
-        background-color: #D6E7D2;
+        background-color: #edf2ec;
         width: 100%;
         transition: .2s all linear;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         z-index: 10;
         transform: translateX(100%);
         padding: 40px;
-        top: 116px;
+        top: 75px;
         left: 0;
+        transition: 1s;
     }
 
     .navigation.active{
         transform: translateX(0);
+        font-size: 30px;
     }
 
     .burger{
         display: block;  
         cursor: pointer;
+        transition: 1s;
+    
     }
 
     .burger.active .second{
@@ -224,12 +248,14 @@
     }
 
     .burger.active .first{
-        transform: translateY(10px) rotate(45deg);
+        transform: translateY(11px) rotate(45deg);
     }
 
     .burger.active .third{
-        transform: translateY(-10px) rotate(-45deg);
+        transform: translateY(-11px) rotate(-45deg);
     }
+
+    /* burger-menu ends */
 
 }
 
@@ -243,6 +269,11 @@
 
     .header{
         padding: 36px 0;
+        box-shadow: none;
+    }
+
+    .welcome__content{
+        padding: 0;
     }
 
     .welcome__img{
@@ -257,33 +288,33 @@
     }
     
     .welcome__text{
-        padding-bottom: 20px;
+        padding-bottom: 25px;
     }
 
     .welcome__button{
         font-size: 10px;
         line-height: 20px;
-        padding: 8px 18px;
+        padding: 5px 17px;
     }
 
     .welcome__wrapper{
-        padding: 24px 0;
+        padding: 122px 0 24px 0;;
     }
 
     .about__wrapper{
-        padding: 30px 0;
+        padding: 30px 0 37px 0;
     }
 
     .about__title{
         font-size: 25px;
         line-height: 33px;
-        padding-bottom: 21px;
+        padding: 0 0 13px 0;
     }
 
     .about__text{
         font-size: 15px;
         line-height: 25px;
-        padding-bottom: 0.3px;
+        padding-bottom: 5px;
     }
 
     .houseplant{
@@ -294,45 +325,58 @@
     .service__title{
         font-size: 25px;
         line-height: 33px;
-        padding: 30px 143px 35px 0;
+        padding: 32px 143px 36px 0;
     }
 
     .service__button{
         flex-wrap: wrap;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .button{
+        width: auto;
         font-size: 15px;
         line-height: 20px;
-        padding: 8px 28px;
+        padding: 7px 32px;
         margin: 0 10px 9px 0;
-    }
-
-    .button:last-child{
-        margin: 0;
+        width: 121px;
+        height: 35px;
     }
 
     .pic__title{
         font-size: 20px;
         line-height: 20px;
+        padding: 5px 0 13px 0;
     }
 
     .service__pic{
-        margin-bottom: 34px;
+        margin-bottom: 32px;
+        width: 280px;
+    }
+
+    .service__pic:last-child{
+        margin-bottom: 28px;
+    }
+
+    .columns__3{
+        justify-content: space-around;
+    }
+
+    .pic__text{
+        padding: 0px 20px 18px 20px;
     }
 
     .prices__wrapper{
         flex-wrap: wrap;
         justify-content: center;
-        padding: 19px 0 40px 0;
+        padding: 17px 0 37px 0;
     }
 
     .prices__title{
         font-size: 25px;
         line-height: 30px;
         text-align: center;
-        padding: 0 0 40px 0;
+        padding: 0 0 38px 0;
     }
 
     .prices__button{
@@ -367,7 +411,7 @@
     .text__call{
         font-size: 20px;
         line-height: 35px;
-        padding: 0 0 14px 0;
+        padding: 0 25px 18px 25px;
     }
 
     .button__call{
@@ -380,32 +424,35 @@
     .contact__title{
         font-size: 25px;
         line-height: 33px;
-        padding: 25px 0 80px 0;
+        padding: 25px 0 82px 0;
     }
 
     .contact__button{
         width: 300px;
         height: 50px;
         margin: 0 0 132px 0;
+        padding: 4px 17px;
     }
 
     .woman{
         width: 100px;
         height: 124.25px;
-    }
-    .data{
-        padding-right: 20px;
+        padding: 0;
     }
 
-    .data:last-child{
-        padding-right: 0;
+    .footer__data{
+        margin: 20px 0 15px 0;
+    }
+
+    .data{
+        padding: auto;
     }
 
     .item{
-        padding-right: 20px;
+        padding: auto;
     }
 
-    .item:last-child{
-        padding-right: 0;
+    .social__list {
+        margin-top: 12px;
     }
 }
