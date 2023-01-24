@@ -278,13 +278,13 @@
     }
     
     .welcome__text{
-        padding-bottom: 27px;
+        padding-bottom: 25px;
     }
 
     .welcome__button{
         font-size: 10px;
         line-height: 20px;
-        padding: 5px 18px;
+        padding: 5px 17px;
     }
 
     .welcome__wrapper{
@@ -292,7 +292,7 @@
     }
 
     .about__wrapper{
-        padding: 30px 0 39px 0;
+        padding: 30px 0 36px 0;
     }
 
     .about__title{
@@ -315,7 +315,7 @@
     .service__title{
         font-size: 25px;
         line-height: 33px;
-        padding: 32px 143px 38px 0;
+        padding: 32px 143px 36px 0;
     }
 
     .service__button{
@@ -333,10 +333,6 @@
         height: 35px;
     }
 
-    /*.button:last-child{
-        margin: 0;
-    }*/
-
     .pic__title{
         font-size: 20px;
         line-height: 20px;
@@ -344,12 +340,16 @@
     }
 
     .service__pic{
-        margin-bottom: 35px;
+        margin-bottom: 32px;
         width: 280px;
     }
 
+    .service__pic:last-child{
+        margin-bottom: 28px;
+    }
+
     .columns__3{
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .pic__text{
@@ -359,14 +359,14 @@
     .prices__wrapper{
         flex-wrap: wrap;
         justify-content: center;
-        padding: 19px 0 40px 0;
+        padding: 19px 0 37px 0;
     }
 
     .prices__title{
         font-size: 25px;
         line-height: 30px;
         text-align: center;
-        padding: 0 0 40px 0;
+        padding: 0 0 38px 0;
     }
 
     .prices__button{
@@ -401,7 +401,7 @@
     .text__call{
         font-size: 20px;
         line-height: 35px;
-        padding: 0 0 14px 0;
+        padding: 0 25px 18px 25px;
     }
 
     .button__call{
@@ -414,32 +414,35 @@
     .contact__title{
         font-size: 25px;
         line-height: 33px;
-        padding: 25px 0 80px 0;
+        padding: 25px 0 82px 0;
     }
 
     .contact__button{
         width: 300px;
         height: 50px;
         margin: 0 0 132px 0;
+        padding: 4px 17px;
     }
 
     .woman{
         width: 100px;
         height: 124.25px;
-    }
-    .data{
-        padding-right: 20px;
+        padding: 0;
     }
 
-    .data:last-child{
-        padding-right: 0;
+    .footer__data{
+        margin: 20px 0 15px 0;
+    }
+
+    .data{
+        padding: auto;
     }
 
     .item{
-        padding-right: 20px;
+        padding: auto;
     }
 
-    .item:last-child{
-        padding-right: 0;
+    .social__list {
+        margin-top: 12px;
     }
 }
